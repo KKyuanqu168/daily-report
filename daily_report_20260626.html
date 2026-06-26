@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>跨境电商日报 — 2026年6月26日</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f0f4f8;
+    color: #1a2332;
+    line-height: 1.6;
+  }
+  .container { max-width: 860px; margin: 0 auto; padding: 24px 16px; }
+  .header {
+    text-align: center;
+    padding: 40px 20px 32px;
+    background: linear-gradient(135deg, #0f2b5e 0%, #1a4a8a 50%, #2563eb 100%);
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(255,255,255,0.06) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .header h1 { font-size: 28px; font-weight: 700; letter-spacing: 1px; }
+  .header .date { font-size: 14px; opacity: 0.8; margin-top: 8px; }
+  .header .subtitle { font-size: 13px; opacity: 0.65; margin-top: 4px; }
+  .section {
+    background: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .section-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f2b5e;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8edf4;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-title .icon { font-size: 22px; }
+  .news-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #f0f3f8;
+  }
+  .news-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .news-item:first-child { padding-top: 0; }
+  .news-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a2332;
+    margin-bottom: 4px;
+  }
+  .news-title a {
+    color: #1a4a8a;
+    text-decoration: none;
+  }
+  .news-title a:hover { text-decoration: underline; color: #2563eb; }
+  .news-meta {
+    font-size: 12px;
+    color: #8a95a8;
+    margin-bottom: 6px;
+  }
+  .news-summary {
+    font-size: 14px;
+    color: #4a5568;
+    line-height: 1.7;
+  }
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-right: 4px;
+    font-weight: 500;
+  }
+  .tag-hot { background: #fee2e2; color: #dc2626; }
+  .tag-info { background: #dbeafe; color: #2563eb; }
+  .tag-success { background: #d1fae5; color: #059669; }
+  .tag-warning { background: #fef3c7; color: #d97706; }
+  .divider {
+    text-align: center;
+    padding: 8px 0;
+    color: #8a95a8;
+    font-size: 13px;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .stat-card {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #e8edf4;
+  }
+  .stat-value {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0f2b5e;
+  }
+  .stat-label {
+    font-size: 12px;
+    color: #6b7a90;
+    margin-top: 4px;
+  }
+  .stat-change {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  .up { color: #059669; }
+  .down { color: #dc2626; }
+  .footer {
+    text-align: center;
+    padding: 20px;
+    color: #8a95a8;
+    font-size: 12px;
+  }
+  .hot-topic {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border: 1px solid #f59e0b;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+  }
+  .hot-topic .topic-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 6px;
+  }
+  .hot-topic .topic-body {
+    font-size: 14px;
+    color: #78350f;
+    line-height: 1.7;
+  }
+  @media (max-width: 600px) {
+    .header h1 { font-size: 22px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .section { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>🌐 跨境电商日报</h1>
+  <div class="date">2026年6月26日 · 星期五</div>
+  <div class="subtitle">覆盖全球主要市场 · 数据截至当日 15:00 CST</div>
+</div>
+
+<div class="stats-grid">
+  <div class="stat-card">
+    <div class="stat-value">$83亿</div>
+    <div class="stat-label">美国Prime Day首日销售额</div>
+    <div class="stat-change up">↑ 同比增长</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value">54亿</div>
+    <div class="stat-label">加拿大Prime Day总消费（加元）</div>
+    <div class="stat-change up">↑ 购物意愿提升</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value">26%</div>
+    <div class="stat-label">6月上半月中美集装箱环比增幅</div>
+    <div class="stat-change up">↑ 年中旺季备货</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value">226.1%</div>
+    <div class="stat-label">厦门对东南亚跨境电商包裹增长</div>
+    <div class="stat-change up">↑ 东南亚爆发</div>
+  </div>
+</div>
+
+<!-- ===== 今日头条 ===== -->
+<div class="section">
+  <div class="section-title"><span class="icon">📰</span> 今日头条</div>
+
+  <div class="news-item">
+    <div class="news-title"><span class="tag tag-hot">🔥 重磅</span> <a href="https://www.amz123.com/zb/20260626" target="_blank">2026年美国Prime Day首日销售额达83亿美元</a></div>
+    <div class="news-meta">AMZ123 · 2026-06-26 08:20</div>
+    <div class="news-summary">2026年Amazon Prime Day于6月25日正式启动，美国市场首日销售额达到83亿美元。加拿大Prime Day预计总消费将达54亿加元，消费者购物意愿显著提升。</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-title"><span class="tag tag-hot">🔥 新计划</span> <a href="https://www.amz123.com/t/63mAk0wF" target="_blank">亚马逊全球开店推出"拉美速通计划"</a></div>
+    <div class="news-meta">AMZ123 · 2026-06-26</div>
+    <div class="news-summary">亚马逊宣布将在2026年内面向3000个具备长期投入意愿的中国品牌，提供涵盖本地公司注册协助、税务解决方案、资金补贴、物流费用减免及客户经理全程陪跑在内的一站式拉美拓展方案。</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-title"><span class="tag tag-warning">⚠️ 新规</span> <a href="https://www.amz123.com/zb/20260626" target="_blank">亚马逊MFN备货时间新规6月29日生效，严禁虚报时效</a></div>
+    <div class="news-meta">AMZ123 · 2026-06-26</div>
+    <div class="news-summary">亚马逊MFN（自发货）备货时间新规将于6月29日正式生效，严查虚报备货时间行为，卖家需确保备货时效信息真实准确。</div>
+  </div>
+
+</div>
+
+<!-- ===== 平台动态 ===== -->
+<div class="section">
+  <div class="section-title"><span class="icon">🏪</span> 平台动态</div>
+
+  <div class="news-item">
+    <div class="news-title"><span class="tag tag-info">SHEIN</span> <a href="https://www.amz123.com/hd/8FCA3qWL_mIPu" target="_blank">SHEIN全国巡回招商会在深圳举办</a></div>
+    <div class="news-meta">AMZ123 · 2026-06-26</div>
+    <div class="news-summary">AMZ123联合SHEIN举办全国巡回招商会，官方深度解读英欧半托管/自运营模式，品类经理现场1v1选品诊断，顺丰国际同步分享出海物流方案。</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-title"><span class="tag tag-info">Shopee</span> Shopee菲律宾海外仓头程7月起每CBM降费30-40元</div>
+    <div class="news-meta">跨境知道 · 2026-06-25 09:24</div>
+    <div class="news-summary">Shopee菲律宾官方海外仓头程运输费用自7月起大幅下调，每CBM降低30-40元人民币，进一步降低卖家东南亚市场物流成本。</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-title"><span class="tag tag-info">eBay</span> eBay首办成都二奢跨境峰会并发布春夏时尚趋势报告</div>
+    <div class="news-meta">跨境知道 · 2026-06-24</div>
+    <div class="news-summary">eBay在成都举办首届二手奢侈品跨境峰会，同步发布2026春夏时尚趋势报告，布局中国二手奢侈品出海赛道。</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-title"><span class="tag tag-info">美客多</span> <a href="https://www.amz123.com/t/i2PfY9vR" target="_blank">Mercado Libre发布2026世界杯拉美5国电商趋势报告</a></div>
+    <div class="news-meta">AMZ123 · 2026-06</div>
+    <div class="news-summary">美客多作为2026年国际足联世界杯拉美官方合作伙伴，独家发布MELI TRENDS拉美5国世界杯趋势报告，并同步上线世界杯大促专区，为跨境卖家提供拉美消费洞察。</div>
+  </div>
+
+</div>
+
+<!-- ===== 行业深度 ===== -->
+<div class="section">
+  <div class="section-title"><span class="icon">🔍</span> 行业聚焦</div>
+
+  <div class="hot-topic">
+    <div class="topic-title">📊 中国跨境电商：从低价竞争走向价值跃迁</div>
+    <div class="topic-body">
+      根据卢森堡咨询机构Trade and Transport Group数据，2026年4月中国低成本电商出口额同比下滑10.9%至98.1亿美元，连续五个月同比下降。但中国整体出口依然强劲——5月出口总值3767.8亿美元，同比增长19.4%。<br><br>
+      结构层面，技术密集型产品表现亮眼：集成电路5月出口355.5亿美元（+110.9%），自动数据处理设备（+66.1%），汽车（+39.3%）。传统劳动密集型品类持续承压：服装（-4.1%），箱包（-4.9%），玩具（-7%）。<br><br>
+      出海四小龙（Temu、SHEIN、TikTok Shop、速卖通）纷纷转向品牌化升级，但行业整体仍面临美欧关税收紧、人民币升值、物流成本攀升等多重压力。
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-title"><span class="tag tag-warning">关税</span> EU将于7月全面取消150欧元以下商品进口免税待遇</div>
+    <div class="news-meta">行业资讯 · 2026-06</div>
+    <div class="news-summary">继美国5月关闭T86免税清关通道后，欧盟将于2026年7月全面取消150欧元以下商品的进口免税待遇。全球"免税红利时代"正式终结，跨境卖家合规成本持续上涨。</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-title"><span class="tag tag-success">物流</span> 6月上半月中美集装箱货运量环比反弹约26%</div>
+    <div class="news-meta">FreightWaves/SONAR · 2026-06-24</div>
+    <div class="news-summary">受关税预期上调、年中旺季前置影响，跨境卖家在备货端进行"极限冲刺"。6月上半月中国至美国集装箱货运量环比反弹约26%，创春节后单半月最高增幅。</div>
+  </div>
+
+</div>
+
+<!-- ===== 区域市场 ===== -->
+<div class="section">
+  <div class="section-title"><span class="icon">🌏</span> 区域市场</div>
+
+  <div class="news-item">
+    <div class="news-title"><span class="tag tag-success">东南亚</span> 厦门空港跨境电商包裹出口突破5000万件，东南亚增长226%</div>
+    <div class="news-meta">厦门海关 · 2026-06-25</div>
+    <div class="news-summary">厦门机场海关今年监管出口跨境电商包裹超5000万件，同比增长2.6%，比去年提前一周突破5000万件大关。其中对东南亚出口超1600万件，同比增长226.1%，依托空港物流优势和产业带集群力量爆发。</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-title"><span class="tag tag-success">拉美</span> 亚马逊推出"拉美速通计划"覆盖拉美市场</div>
+    <div class="news-meta">AMZ123 · 2026-06-26</div>
+    <div class="news-summary">配合世界杯热潮，亚马逊加速布局拉美市场。美客多作为世界杯官方合作伙伴同步发力，拉美电商市场迎来多重利好。</div>
+  </div>
+
+</div>
+
+<!-- ===== 政策合规 ===== -->
+<div class="section">
+  <div class="section-title"><span class="icon">📋</span> 政策合规</div>
+
+  <div class="news-item">
+    <div class="news-title">跨境电商出口报关与一般贸易出口报关差异解读</div>
+    <div class="news-meta">企鹅号 · 2026-06-26</div>
+    <div class="news-summary">跨境电商出口分9610（零售出口）、9710（B2B直接出口）、9810（出口海外仓）三种监管模式，与一般贸易（0110）在申报主体、单证要求、监管灵活性等方面存在显著差异。建议卖家根据业务模式匹配对应监管代码。</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-title">SHEIN、阿里巴巴率先配合税局报数据，税务合规趋严</div>
+    <div class="news-meta">行业资讯 · 2025-09（持续影响）</div>
+    <div class="news-summary">自2025年底起，各地税务局陆续发布涉税信息申报通知，跨境电商税务合规化持续推进，Temu、TikTok等平台预计将跟进。</div>
+  </div>
+
+</div>
+
+<!-- ===== 卖家观察 ===== -->
+<div class="section">
+  <div class="section-title"><span class="icon">💡</span> 卖家观察</div>
+  <div class="news-summary" style="font-size:14px; color:#4a5568;">
+    <p>• <strong>利润承压成为常态</strong>：AMZ123统计18家跨境企业Q1财报，10家大卖净利润同比下滑。Marketplace Pulse报告显示69%的卖家利润表现不佳。</p>
+    <p>• <strong>从"冲规模"到"要利润"</strong>：深圳女装Temu卖家上调售价2美元后，利润率反而改善。行业共识正在从"先冲规模"向"深耕品类、拓展独立站"转变。</p>
+    <p>• <strong>品牌化升级≠简单涨价</strong>：缺乏用户认知支撑的涨价往往导致销量跳水。安克创新、大疆等成功案例证明，长期技术投入与用户运营才是品牌壁垒的核心。</p>
+    <p>• <strong>物流成本持续攀升</strong>：中东地缘冲突推高国际油价，跨境物流费用占比持续扩大，叠加人民币升值（美元汇率下行），利润空间进一步压缩。</p>
+  </div>
+</div>
+
+<!-- ===== 数据看板 ===== -->
+<div class="section">
+  <div class="section-title"><span class="icon">📈</span> 跨境数据看板</div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%; border-collapse: collapse; font-size:14px;">
+      <thead>
+        <tr style="background:#f8fafc; border-bottom:2px solid #e8edf4;">
+          <th style="padding:10px 12px; text-align:left; color:#1a2332;">指标</th>
+          <th style="padding:10px 12px; text-align:right; color:#1a2332;">数值</th>
+          <th style="padding:10px 12px; text-align:right; color:#1a2332;">同比</th>
+          <th style="padding:10px 12px; text-align:left; color:#1a2332;">备注</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid #f0f3f8;">
+          <td style="padding:10px 12px;">中国跨境电商进出口（2024前三季度）</td>
+          <td style="padding:10px 12px; text-align:right; font-weight:600;">1.88万亿元</td>
+          <td style="padding:10px 12px; text-align:right; color:#059669;">+11.5%</td>
+          <td style="padding:10px 12px; color:#6b7a90;">海关总署</td>
+        </tr>
+        <tr style="border-bottom:1px solid #f0f3f8;">
+          <td style="padding:10px 12px;">中国货物贸易出口总值（2026年5月）</td>
+          <td style="padding:10px 12px; text-align:right; font-weight:600;">3767.8亿美元</td>
+          <td style="padding:10px 12px; text-align:right; color:#059669;">+19.4%</td>
+          <td style="padding:10px 12px; color:#6b7a90;">海关总署</td>
+        </tr>
+        <tr style="border-bottom:1px solid #f0f3f8;">
+          <td style="padding:10px 12px;">集成电路出口（2026年5月）</td>
+          <td style="padding:10px 12px; text-align:right; font-weight:600;">355.5亿美元</td>
+          <td style="padding:10px 12px; text-align:right; color:#059669;">+110.9%</td>
+          <td style="padding:10px 12px; color:#6b7a90;">技术密集型爆发</td>
+        </tr>
+        <tr style="border-bottom:1px solid #f0f3f8;">
+          <td style="padding:10px 12px;">低成本电商出口（2026年4月）</td>
+          <td style="padding:10px 12px; text-align:right; font-weight:600;">98.1亿美元</td>
+          <td style="padding:10px 12px; text-align:right; color:#dc2626;">-10.9%</td>
+          <td style="padding:10px 12px; color:#6b7a90;">连续5个月下降</td>
+        </tr>
+        <tr>
+          <td style="padding:10px 12px;">跨境电商主体数量</td>
+          <td style="padding:10px 12px; text-align:right; font-weight:600;">超10万家</td>
+          <td style="padding:10px 12px; text-align:right; color:#059669;">↑</td>
+          <td style="padding:10px 12px; color:#6b7a90;">商务部</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="footer">
+  <p>📌 本日报由 AI 自动采集生成 · 数据来源于公开网络资讯</p>
+  <p>发布时间：2026-06-26 15:23 CST</p>
+  <p>⚠️ 以上内容仅供参考，不构成任何投资或经营决策建议</p>
+</div>
+
+</div>
+</body>
+</html>
